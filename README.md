@@ -5,14 +5,14 @@ Here, you will find:
 A microsoft office doc with a password on it
 
 
-cd crack-microsoft-file-demo
+1)cd crack-microsoft-file-demo
 ______________________________________________________________________
 note:--> python office2john.py (your target file name) > hash.txt
 my target is passwordprotected.docx
 _________________________________________________________________________
 
-python office2john.py passwordprotect.docx > hash.txt
-cat hash.txt
+2)python office2john.py passwordprotect.docx > hash.txt
+3)cat hash.txt
 
 and you see 
 
@@ -21,7 +21,7 @@ passwordprotect.docx:$office$*2010*100000*128*16*ff5c49194a94e82aec585562291f8e2
 
 then you write this command 
 
-john --wordlist=/usr/share/wordlists/nmap.lst hash.txt
+4)john --wordlist=/usr/share/wordlists/nmap.lst hash.txt
 
 
 and you see password is crack
