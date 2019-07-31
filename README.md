@@ -7,11 +7,11 @@ A microsoft office doc with a password on it
 
 1)cd crack-microsoft-file-demo
 ______________________________________________________________________
-note:--> python office2john.py (your target file name) > hash.txt
+note:--> python johnHash.py (your target file name) > hash.txt
 my target is passwordprotected.docx
 _________________________________________________________________________
 
-2)python office2john.py passwordprotect.docx > hash.txt
+2)python johnHash.py passwordprotect.docx > hash.txt
 3)cat hash.txt
 
 and you see 
